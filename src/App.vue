@@ -1,16 +1,21 @@
 <template>
   <Header/>
+  <Summary/>
+  <Experience/>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </template>
 
 <script>
 import Header from './components/Header.vue'
-
+import Experience from './components/Experience.vue'
+import Summary from './components/Summary.vue'
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Experience,
+    Summary
   }
 }
 </script>
@@ -21,7 +26,7 @@ export default {
   padding: 0px;
 }
 #app {
-  font-family: 'Homemade Apple', 'Courier New', Courier, monospace;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
