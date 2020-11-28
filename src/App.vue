@@ -6,6 +6,8 @@
   <div class="Sections">
     <Section msg="Education"/>
     <div class="break"><br/></div>
+    <Section msg="Skills"/>
+    <div class="break"><br/></div>
     <Section msg="Experience"/>
     <div class="break"><br/></div>
     <Section msg="Projects"/>
@@ -24,6 +26,7 @@
 import Header from './components/Header.vue'
 import Section from './components/Section.vue'
 import Summary from './components/Summary.vue'
+
 export default {
   name: 'App',
   components: {
@@ -60,5 +63,9 @@ iframe{
 
 }
 
-
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 50px;
+  }
+}
 </style>

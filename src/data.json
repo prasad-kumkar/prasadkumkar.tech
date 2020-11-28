@@ -1,0 +1,37 @@
+[{
+    "summary": "He is in his prefinal year studying Computer Science Engineering with a specialisation in Bio-informatics. He is currently progressing with blockchain and full stack web development. He has attended Qiskit Global Summer School on Quantum Computing conducted by IBM Quantum.He also has worked on deep learning as an undergrad researcher for self-driving Autonomous vehicle. He is vastly well-versed with the following languages: Python, Java, JavaScript, and C++. He has volunteered this summer in teaching others as an advocate for open-source projects. He has filed his first patent in 2019, its an glove controller for VR. His interests lies with quantum computing, AI and new emerging tech such as blockchain.He is self-motivated and hardworking having exceptional abilities in terms of my problem-solving skills. Being a good team member with great communication skills, he also has great documentation and management skills",
+    "education": {
+        "Undergraduate": {
+        "name": "Vellore Institute of Technology",
+        "location": "Vellore, India",
+        "course": "Bachelor in Technology",
+        "start": 2018,
+        "end": 2022,
+        "description": "Studying Computer Science Engineering with specialization in Bioinformatics, being a part of TEDx VIT Vellore and ASME."
+        },
+        "High School": {
+        "name": "SP College",
+        "location": "Pune, India",
+        "course": "Higher Secondary Education",
+        "start": 2016,
+        "end": 2018,
+        "description": "Studied Physics, Chemistry, Mathematics with an interest in  Electronics and Communication also being  a part of the Inter-school Chess team, Football team, and Swimming team."
+        },
+    "experience": {
+
+    },
+    "projects": {
+
+    },
+    "skills": {
+
+    },
+    "achievements": {
+
+    },
+    "languages": {
+
+    }
+  }
+}
+]
