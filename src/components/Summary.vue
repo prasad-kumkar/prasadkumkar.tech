@@ -1,6 +1,7 @@
 <template>
   <div class="summary">
-    <div v-for="data in myJson" v-bind:key="data.summary">{{data.summary}}</div>
+    <p>{{myJson[0].summary[0]}}</p><br/>
+    <p>{{myJson[0].summary[1]}}</p>
   </div>
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
@@ -24,7 +25,7 @@ export default {
 .summary{
     font-family: 'Source Code Pro', sans-serif;
 
-    background-color: black;
+    background-color: #2c3e50;
     color: white;
     margin-top: 20px;
     padding: 5% 10% 5% 10%;

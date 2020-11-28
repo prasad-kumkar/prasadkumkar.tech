@@ -8,6 +8,8 @@
     <div class="break"><br/></div>
     <Section msg="Skills"/>
     <div class="break"><br/></div>
+    <Section msg="Languages"/>
+    <div class="break"><br/></div>
     <Section msg="Experience"/>
     <div class="break"><br/></div>
     <Section msg="Projects"/>
@@ -16,9 +18,10 @@
     <div class="break"><br/></div>
     <Section msg="Contact"/>
   </div>
-    <div class="break"><br/></div>
+  <div class="break"></div>
 
 <iframe src="https://giphy.com/embed/KYElw07kzDspaBOwf9" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<div class="credit"><p>theme by: <a href="https://www.github.com/prasad-kumkar">prasad-kumkar</a></p></div>
 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </template>
 
@@ -43,26 +46,32 @@ export default {
   padding: 0px;
 }
 #app {
-  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color: #2c3e50;
+  background-image: url(./assets/white.jpg);
   color: white;
   margin-top: 20px;
 }
 h1{
   font-family: 'Homemade Apple', 'Courier New', Courier, monospace;
-}
-.break{
-  background-color: aliceblue;
+  color: #2c3e50;
 }
 
 iframe{
   margin: 2%;
-
 }
-
+p{
+  font-family: 'Source Code Pro', monospace;
+}
+a{
+  font-family: 'Homemade Apple', 'Courier New', Courier, monospace;
+}
+.credit{
+  background-color: white;
+  color: #2c3e50;
+}
 @media only screen and (max-width: 600px){
   h1{
     font-size: 50px;

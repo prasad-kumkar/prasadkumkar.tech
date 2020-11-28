@@ -1,16 +1,44 @@
 <template>
 <div class="section">
     <h2>{{msg}}</h2>
-
-</div>
+    <Block v-if="!this.doub" :json="myJson" ref="block"/>
+    <DoubleBlock v-if="this.doub" :json="myJson" ref="double"/>
     
+</div>
 </template>
 
 <script>
+import json from "../data.json"
+import Block from "./Block.vue"
+import DoubleBlock from "./DoubleBlock.vue"
 export default {
     name: "Section",
-    props: {msg: String}
-}
+    props: {msg: String, doub: Boolean},
+    data(){
+        switch(this.msg){
+            case "Education":
+                return {myJson: json[0].education, doub: true}
+            case "Skills":
+                return {myJson: json[0].skills, doub: false}
+            case "Languages":
+                return {myJson: json[0].languages, doub: false}
+            case "Experience":
+                return {myJson: json[0].experience, doub: true}
+            case "Projects":
+                return {myJson: json[0].projects, doub: true}
+            case "Achievements":
+                return {myJson: json[0].achievements, doub: true}
+            case "Contact":
+                return {myJson: json[0].contact, doub: false}
+            default:
+                return {myJson: json, doub: false}
+        }
+    },
+    components: {
+        Block,
+        DoubleBlock
+    }
+  }
 </script>
 
 <style scoped>
@@ -19,7 +47,8 @@ h2{
 }
 .section{
     margin: 0px;
-  padding: 40%;
+  padding: 10%;
+  width: 80%;
     background-color:#00994d;
     }
 section{
@@ -27,6 +56,5 @@ section{
   color: white
 }
 .section:hover{
-    background-color: black;
 }
 </style>

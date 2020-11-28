@@ -1,6 +1,5 @@
 <template>
   <div class="header">
-  
   <div class="social-media">
     <a class="social-media-links" href=""><img class="social-media-icons" src="../assets/apple-mail.png"></a>
     <a class="social-media-links" href=""><img class="social-media-icons" src="../assets/016-discord.png"></a>
@@ -49,19 +48,12 @@ a {
 }
 
 @media only screen and (max-width: 600px){
-.social-media{
-  /* make element inline flex-container */
-  /* this will make its children flex-items */
-  display: inline-flex;
-  /* align-items items in column */
-  flex-direction: column;
-  /* center items horizontally */
-  align-items: center;
-  /* center items vertically */
-  justify-content: center;
-}
 .social-media-links{
-  margin: 10px
+  margin: 20px
 }
+.social-media-icons{
+  height: 60px;
+}
+
 }
 </style>
