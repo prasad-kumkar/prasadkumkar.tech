@@ -1,20 +1,34 @@
 <template>
+<h1>prasad kumkar</h1>
   <Header/>
   <Summary/>
-  <Experience/>
-<link rel="preconnect" href="https://fonts.gstatic.com">
+  <div class="break"><br/></div>
+  <div class="Sections">
+    <Section msg="Education"/>
+    <div class="break"><br/></div>
+    <Section msg="Experience"/>
+    <div class="break"><br/></div>
+    <Section msg="Projects"/>
+    <div class="break"><br/></div>
+    <Section msg="Achievements"/>
+    <div class="break"><br/></div>
+    <Section msg="Contact"/>
+  </div>
+    <div class="break"><br/></div>
+
+<iframe src="https://giphy.com/embed/KYElw07kzDspaBOwf9" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import Experience from './components/Experience.vue'
+import Section from './components/Section.vue'
 import Summary from './components/Summary.vue'
 export default {
   name: 'App',
   components: {
     Header,
-    Experience,
+    Section,
     Summary
   }
 }
@@ -34,5 +48,17 @@ export default {
   color: white;
   margin-top: 20px;
 }
+h1{
+  font-family: 'Homemade Apple', 'Courier New', Courier, monospace;
+}
+.break{
+  background-color: aliceblue;
+}
+
+iframe{
+  margin: 2%;
+
+}
+
 
 </style>
