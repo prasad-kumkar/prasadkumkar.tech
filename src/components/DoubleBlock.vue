@@ -22,11 +22,14 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 #list{
     background-color:black;
     margin: 10px;
+    max-width: 400px;
+    min-height: 300px;
 }
 #list:hover{
     background-color: blueviolet;

@@ -24,10 +24,8 @@ export default {
 <style scoped>
 .summary{
     font-family: 'Source Code Pro', sans-serif;
-
     background-color: #2c3e50;
     color: white;
-    margin-top: 20px;
-    padding: 5% 10% 5% 10%;
+    padding: 200px 10% 5% 10%;
 }
 </style>

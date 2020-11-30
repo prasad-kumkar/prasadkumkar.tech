@@ -27,6 +27,8 @@ export default {
 }
 .block{
     margin: 10px;
+    max-width: 200px;
+    min-height: 30px;
 }
 #list{
     background-color:black;

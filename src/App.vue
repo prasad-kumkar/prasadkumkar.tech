@@ -1,27 +1,21 @@
 <template>
-<h1>prasad kumkar</h1>
   <Header/>
   <Summary/>
   <div class="break"><br/></div>
   <div class="Sections">
-    <Section msg="Education"/>
-    <div class="break"><br/></div>
-    <Section msg="Skills"/>
-    <div class="break"><br/></div>
-    <Section msg="Languages"/>
-    <div class="break"><br/></div>
-    <Section msg="Experience"/>
-    <div class="break"><br/></div>
-    <Section msg="Projects"/>
-    <div class="break"><br/></div>
-    <Section msg="Achievements"/>
-    <div class="break"><br/></div>
+    <Section msg="Education"/><br/>
+    <Section msg="Skills"/><br/>
+    <Section msg="Languages"/><br/>
+    <Section msg="Experience"/><br/>
+    <Section msg="Projects"/><br/>
+    <Section msg="Achievements"/><br/>
     <Section msg="Contact"/>
   </div>
   <div class="break"></div>
 
 <iframe src="https://giphy.com/embed/KYElw07kzDspaBOwf9" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-<div class="credit"><p>theme by: <a href="https://www.github.com/prasad-kumkar">prasad-kumkar</a></p></div>
+<div class="credit"><p>theme by: <a href="https://www.github.com/prasad-kumkar">prasad-kumkar</a></p>
+<p href="https://www.freepik.com/vectors/background">Background vector created by starline - www.freepik.com</p></div>
 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </template>
 
@@ -52,7 +46,6 @@ export default {
   background-color: #2c3e50;
   background-image: url(./assets/white.jpg);
   color: white;
-  margin-top: 20px;
 }
 h1{
   font-family: 'Homemade Apple', 'Courier New', Courier, monospace;
