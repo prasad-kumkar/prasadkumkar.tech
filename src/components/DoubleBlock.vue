@@ -1,7 +1,7 @@
 <template>
     <div class="block-group">
-        <ul id="list" v-for="data in json" v-bind:key="data.id">
-            <div class="block" v-for="i in data" v-bind:key="i.name">{{i}}</div>
+        <ul id="list" v-for="data in json" v-bind:key="data.id"><a :href="data.link" style="text-decoration:none; color:white;">
+            <div class="block" v-for="i in data" v-bind:key="i.name">{{i}}</div></a>
         </ul>
     </div>
 </template>

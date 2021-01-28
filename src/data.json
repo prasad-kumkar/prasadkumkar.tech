@@ -11,7 +11,8 @@
             "course": "Bachelor in Technology",
             "start": 2018,
             "end": 2022,
-            "description": "Studying Computer Science Engineering with specialization in Bioinformatics, being a part of TEDx VIT Vellore and ASME."
+            "description": "Studying Computer Science Engineering with specialization in Bioinformatics, being a part of TEDx VIT Vellore and ASME.",
+            "link": "https://vit.ac.in/"
         },
         "2": {
             "name": "SP College",
@@ -19,7 +20,8 @@
             "course": "Higher Secondary Education",
             "start": 2016,
             "end": 2018,
-            "description": "Studied Physics, Chemistry, Mathematics with an interest in  Electronics and Communication also being  a part of the Inter-school Chess team, Football team, and Swimming team."
+            "description": "Studied Physics, Chemistry, Mathematics with an interest in  Electronics and Communication also being  a part of the Inter-school Chess team, Football team, and Swimming team.",
+            "link": "https://www.spcollegepune.ac.in/"
         }
     },
     "experience": {
@@ -29,7 +31,8 @@
             "location": "Vellore, India",
             "start": "Jan 2020",
             "end": "Mar 2020",
-            "description": "Worked on a self-driving Level 5 Autonomous Vehicle as a Deep Learning researcher. I worked on the algorithms involving industry level sensors, processors and contributed towards research papers."
+            "description": "Worked on a self-driving Level 5 Autonomous Vehicle as a Deep Learning researcher. I worked on the algorithms involving industry level sensors, processors and contributed towards research papers.",
+            "link": "https://in.linkedin.com/company/arcvit"
         },
         "2": {
             "company": "Punar Healthcare",
@@ -37,14 +40,15 @@
             "location": "Vellore, India",
             "start": "Jan 2019",
             "end": "Jul 2019",
-            "description": "Worked towards a project to develop a device to measure recovery of stroke patients by designing and developing the whole  architecture along with conducting unit test cases and optimising the code."
+            "description": "Worked towards a project to develop a device to measure recovery of stroke patients by designing and developing the whole  architecture along with conducting unit test cases and optimising the code.",
+            "link": "https://punar.in/"
         }
     },
     "projects": {
         "1": {
             "name": "WY Vote",
             "description": "Private Blockchain based Voting System",
-            "tech-stack": "Ganache, ReactJS, VueJS, Netify, Remix, Simbachain, Smart-contracts, Solidity, SwaggerAPI",
+            "tech-stack": "Hyperledger Fabric, IBM Cloud, ReactJS, VueJS, Netify, Remix, Simbachain, Smart-contracts, Solidity, SwaggerAPI",
             "link": "https://devpost.com/software/wyvote2020-cjaqm2"
         },
         "2": { 
@@ -107,13 +111,18 @@
     "achievements": {
         "1": {
             "name": "IBM Quantum Excellence", 
-            "description": "Received Quantum Excellence certificate after passing Qiskit Global Summer School organized by IBM."},
+            "description": "Received Quantum Excellence certificate after passing Qiskit Global Summer School organized by IBM.",
+            "link": "https://drive.google.com/file/d/1KaF-IzJZYF68QW56UNrO1rDuvade8Z5u/view?usp=sharing"
+        },
         "2": {
             "name":"WYO Hackathon Winner", 
-            "description":"Won first place at WYO Hackathon 2020 with a prize of 1BTC."},
+            "description":"Won first place at WYO Hackathon 2020 with a prize of 1BTC.",
+            "link": "https://devpost.com/software/wyvote2020-cjaqm2"},
         "3": {
             "name": "Hacking the Diaper Winner", 
-            "description":"Won first place at Hacking the Diaper 2020 organized by Kimberly Clark with a 3000 USD prize."}
+            "description":"Won first place at Hacking the Diaper 2020 organized by Kimberly Clark with a 3000 USD prize.",
+            "link": "https://www.hackerearth.com/challenges/hackathon/hacking-the-diaper/"
+            }
     },
     "languages": [
         "Javascript", 

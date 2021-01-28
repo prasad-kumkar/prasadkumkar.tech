@@ -1,6 +1,6 @@
 <template>
 <div class="section">
-    <h2>{{msg}}</h2>
+    <h1>{{msg}}</h1>
     <Block v-if="!this.doub" :json="myJson" ref="block"/>
     <DoubleBlock v-if="this.doub" :json="myJson" ref="double"/>
     
@@ -42,14 +42,16 @@ export default {
 </script>
 
 <style scoped>
-h2{
+h1{
     font-family: 'Source Code Pro', sans-serif;
+    color: black;
+    margin: 20px;
 }
 .section{
     margin: 0px;
   padding: 10%;
   width: 80%;
-    background-color:#00994d;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(238, 255, 0));
     }
 section{
   border: 1px black;

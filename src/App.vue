@@ -15,7 +15,7 @@
 
 <iframe src="https://giphy.com/embed/KYElw07kzDspaBOwf9" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <div class="credit"><p>theme by: <a href="https://www.github.com/prasad-kumkar">prasad-kumkar</a></p>
-<p href="https://www.freepik.com/vectors/background">Background vector created by starline - www.freepik.com</p></div>
+</div>
 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </template>
 
