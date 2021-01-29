@@ -1,4 +1,4 @@
-# [prasadkumkar.tech](prasadkumkar.tech)
+# prasadkumkar.tech
 
 ## Project setup
 ```

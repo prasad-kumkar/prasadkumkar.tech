@@ -6,139 +6,130 @@
     ],
     "education": {
         "1": {
-            "name": "Vellore Institute of Technology",
-            "location": "Vellore, India",
-            "course": "Bachelor in Technology",
-            "start": 2018,
-            "end": 2022,
+            "1": "Vellore Institute of Technology",
+            "2": "Vellore, India",
+            "3": "Bachelor in Technology",
+            "4": 2018,
+            "5": 2022,
             "description": "Studying Computer Science Engineering with specialization in Bioinformatics, being a part of TEDx VIT Vellore and ASME.",
             "link": "https://vit.ac.in/"
         },
         "2": {
-            "name": "SP College",
-            "location": "Pune, India",
-            "course": "Higher Secondary Education",
-            "start": 2016,
-            "end": 2018,
+            "1": "SP College",
+            "2": "Pune, India",
+            "3": "Higher Secondary Education",
+            "4": 2016,
+            "5": 2018,
             "description": "Studied Physics, Chemistry, Mathematics with an interest in  Electronics and Communication also being  a part of the Inter-school Chess team, Football team, and Swimming team.",
             "link": "https://www.spcollegepune.ac.in/"
         }
     },
     "experience": {
         "1": {
-            "company": "Autonomous Vehicle Research",
-            "title": "Researcher",
-            "location": "Vellore, India",
-            "start": "Jan 2020",
-            "end": "Mar 2020",
+            "1": "Autonomous Vehicle Research",
+            "2": "Vellore, India",
+            "3": "Researcher",
+            "4": "Jan 2020",
+            "5": "Mar 2020",
             "description": "Worked on a self-driving Level 5 Autonomous Vehicle as a Deep Learning researcher. I worked on the algorithms involving industry level sensors, processors and contributed towards research papers.",
             "link": "https://in.linkedin.com/company/arcvit"
         },
         "2": {
-            "company": "Punar Healthcare",
-            "title": "Embedded Systems Intern",
-            "location": "Vellore, India",
-            "start": "Jan 2019",
-            "end": "Jul 2019",
+            "1": "Punar Healthcare",
+            "2": "Vellore, India",
+            "3": "Embedded Systems Intern",
+            "4": "Jan 2019",
+            "5": "Jul 2019",
             "description": "Worked towards a project to develop a device to measure recovery of stroke patients by designing and developing the whole  architecture along with conducting unit test cases and optimising the code.",
             "link": "https://punar.in/"
         }
     },
     "projects": {
         "1": {
-            "name": "WY Vote",
-            "description": "Private Blockchain based Voting System",
-            "tech-stack": "Hyperledger Fabric, IBM Cloud, ReactJS, VueJS, Netify, Remix, Simbachain, Smart-contracts, Solidity, SwaggerAPI",
+            "1": "WY Vote",
+            "2": "Private Blockchain based Voting System",
+            "3": "Hyperledger Fabric, IBM Cloud, ReactJS, VueJS, Netify, Remix, Simbachain, Smart-contracts, Solidity, SwaggerAPI",
             "link": "https://devpost.com/software/wyvote2020-cjaqm2"
         },
         "2": { 
-            "name": "Measure Me",
-            "description": "AR and ML based Body Measurement System",
-            "tech-stack": "Python, TensorflowJS, ARKit, ARCore",
+            "1": "Measure Me",
+            "2": "AR and ML based Body Measurement System",
+            "3": "Python, TensorflowJS, ARKit, ARCore",
             "link": "https://github.com/measure-me"
         },
         "3": {
-            "name": "Authentication API",
-            "description": "Authentication API using Express and Node JS",
-            "tech-stack": "ExpressJS, NodeJS, MongoDB, HTML",
+            "1": "Authentication API",
+            "2": "Authentication API using Express and Node JS",
+            "3": "ExpressJS, NodeJS, MongoDB, HTML",
             "link": "https://github.com/prasad-kumkar/auth-api-mongodb"
         },
         "4": {
-            "name": "Game Playing AI",
-            "description": "Deep RL based Game Playing Agent",
-            "tech-stack": "Python, Keras, Reinforcement Learning",
+            "1": "Game Playing AI",
+            "2": "Deep RL based Game Playing Agent",
+            "3": "Python, Keras, Reinforcement Learning",
             "link": "https://github.com/prasad-kumkar/Banana-Navigator"
         },
         "5": {
-            "name": "Lane Finding for Autonomous Vehicles",
-            "description": "Advancely accurate lane finding system for autonomous vehicles",
-            "tech-stack": "Python, OpenCV, matplotlib",
+            "1": "Lane Finding for Autonomous Vehicles",
+            "2": "Advancely accurate lane finding system for autonomous vehicles",
+            "3": "Python, OpenCV, matplotlib",
             "link": "https://github.com/prasad-kumkar/Advanced-Lane-Detection"
         },
         "6": {
-            "name": "Driver monitoring system",
-            "description": "Deep Learning based driver monitoring system for Autonomous Vehicles (activity & object recognition)",
-            "tech-stack": "Python, OpenCV, tensorflow, dlib",
+            "1": "Driver monitoring system",
+            "2": "Deep Learning based driver monitoring system for Autonomous Vehicles (activity & object recognition)",
+            "3": "Python, OpenCV, tensorflow, dlib",
             "link": "https://github.com/prasad-kumkar/ai-driver-safety"
         },
         "7": {
-            "name": "Med Help",
-            "description": "An Uber-like service for calling ambulance",
-            "tech-stack": "",
+            "1": "Med Help",
+            "2": "An Uber-like service for calling ambulance",
+            "3": "",
             "link": "https://devpost.com/software/ivyhacks-g7pd5b"
         },
         "8": {
-            "name": "Portfolio",
-            "description": "This website",
-            "tech-stack": "VueJS, Digital Ocean",
+            "1": "Portfolio",
+            "2": "This website",
+            "3": "VueJS, Digital Ocean",
             "link": "https://github.com/prasad-kumkar/prasadkumkar.tech"
         },
         "9": {
-            "name": "Pink Links",
-            "description": "A solution backed by blockchain to raise funds for breast cancer NGOs which also connects patient with survivors to help them go through a hard time by matching volunteer service.",
-            "tech-stack": "HTML, CSS, Solidity, Ganache",
+            "1": "Pink Links",
+            "2": "A solution backed by blockchain to raise funds for breast cancer NGOs which also connects patient with survivors to help them go through a hard time by matching volunteer service.",
+            "3": "HTML, CSS, Solidity, Ganache",
             "link": "https://devpost.com/software/pinklinks"
         }
     },
     "skills": {
-        "web-dev": "Web Development, JavaScript, SQL, ReactJS, VueJS, NodeJS, ExpressJS, CSS",
-        "blockchain": "Blockchain, dApps, Hyperledger Fabric v1.4 & v2.x, IBM Blockchain Platform, Solidity, Truffle Ganache",
-        "devops": "Docker, Kubernetes, Unix, Git, IBM Cloud, Digital Ocean, Firebase",
-        "security":"Web Security, Penetration Testing",
-        "ML": "Machine Learning, Computer Vision, Deep Reinforcement Learning, AI",
-        "extra": "Research, Team management, Technical Documentation"
+        "1": {"1": "Web Development", "description": "Web Development, JavaScript, SQL, MongoDB, React, Vue, Node, Express, Django, PHP, RestAPI, API Development, Responsive CSS, Vuetify, Sass, Figma, Adobe"},
+        "2": {"1":"Blockchain Development", "description": "Blockchain dApps, Hyperledger Fabric, Chaincode, Fabric SDK, Indy, IBM Blockchain Platform, Smart Contract Development, Truffle"},
+        "3": {"1": " Devops ", "description": "Docker, Kubernetes, Linux, Git, IBM Cloud, Digital Ocean, Firebase, Heroku"},
+        "4":{"1": "Security", "description": "Web Security, Security Audits, Penetration Testing, Kali Linux, Nmap, Wireshark, Nessus, Cisco PT"},
+        "5": {"1": "Artificial Intelligence", "description": "Machine Learning, Computer Vision, Deep Reinforcement Learning, AI"},
+        "6": {"1": "XR", "description": "Web AR VR, Unity, 3D and VR Game Development, Blender"},
+        "7": {"1": "Extracurricular", "description": "Research, Team management, Technical Documentation"}
     },
     "achievements": {
         "1": {
-            "name": "IBM Quantum Excellence", 
+            "1": "IBM Quantum Excellence", 
             "description": "Received Quantum Excellence certificate after passing Qiskit Global Summer School organized by IBM.",
             "link": "https://drive.google.com/file/d/1KaF-IzJZYF68QW56UNrO1rDuvade8Z5u/view?usp=sharing"
         },
         "2": {
-            "name":"WYO Hackathon Winner", 
+            "1":"WYO Hackathon Winner", 
             "description":"Won first place at WYO Hackathon 2020 with a prize of 1BTC.",
             "link": "https://devpost.com/software/wyvote2020-cjaqm2"},
         "3": {
-            "name": "Hacking the Diaper Winner", 
+            "1": "Hacking the Diaper Winner", 
             "description":"Won first place at Hacking the Diaper 2020 organized by Kimberly Clark with a 3000 USD prize.",
             "link": "https://www.hackerearth.com/challenges/hackathon/hacking-the-diaper/"
             }
     },
-    "languages": [
-        "Javascript", 
-        "Python", 
-        "C#", 
-        "Java", 
-        "C", 
-        "C++", 
-        "Swift", 
-        "Dart", 
-        "Solidity"
-    ],
-    "contact": [
-        "(+91) 777 3951488",
-        "i@prasadkumkar.tech",
-        "RH 7, Kuber Park, Pune 410504, India"
-    ]
+    "languages": {"1":{ "1": "Javascript, Python, C#, Java, C, C++, Swift, Dart, Solidity"}
+    },
+    "contact": {
+        "1": {"1": "(+91) 777 3951488"},
+        "2": {"1": "i@prasadkumkar.tech"}
+    }
   }
 ]

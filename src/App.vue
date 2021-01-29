@@ -1,7 +1,11 @@
 <template>
+<div class="app">
+
+
+<v-app>
   <Header/>
   <Summary/>
-  <div class="break"><br/></div>
+<v-main>
   <div class="Sections">
     <Section msg="Education"/><br/>
     <Section msg="Skills"/><br/>
@@ -11,12 +15,9 @@
     <Section msg="Achievements"/><br/>
     <Section msg="Contact"/>
   </div>
-  <div class="break"></div>
-
-<iframe src="https://giphy.com/embed/KYElw07kzDspaBOwf9" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-<div class="credit"><p>theme by: <a href="https://www.github.com/prasad-kumkar">prasad-kumkar</a></p>
+</v-main>
+</v-app>
 </div>
-<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 </template>
 
 <script>
@@ -39,17 +40,10 @@ export default {
   margin: 0px;
   padding: 0px;
 }
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  background-color: #2c3e50;
-  background-image: url(./assets/white.jpg);
+.app {
+  text-align: center;  
+  background-image: linear-gradient(to-bottom, indigo, white, red);
   color: white;
-}
-h1{
-  font-family: 'Homemade Apple', 'Courier New', Courier, monospace;
-  color: #2c3e50;
 }
 
 iframe{

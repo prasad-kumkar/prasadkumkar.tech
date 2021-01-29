@@ -1,9 +1,10 @@
-<template>
+<template><div>
 <div class="section">
     <h1>{{msg}}</h1>
     <Block v-if="!this.doub" :json="myJson" ref="block"/>
     <DoubleBlock v-if="this.doub" :json="myJson" ref="double"/>
     
+</div>
 </div>
 </template>
 
@@ -44,19 +45,5 @@ export default {
 <style scoped>
 h1{
     font-family: 'Source Code Pro', sans-serif;
-    color: black;
-    margin: 20px;
-}
-.section{
-    margin: 0px;
-  padding: 10%;
-  width: 80%;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(238, 255, 0));
-    }
-section{
-  border: 1px black;
-  color: white
-}
-.section:hover{
 }
 </style>

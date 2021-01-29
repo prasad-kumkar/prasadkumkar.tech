@@ -1,7 +1,13 @@
 <template>
     <div class="block-group">
         <ul id="list" v-for="data in json" v-bind:key="data.id"><a :href="data.link" style="text-decoration:none; color:white;">
-            <div class="block" v-for="i in data" v-bind:key="i.name">{{i}}</div></a>
+            <div class="block" v-for="i in data" v-bind:key="i.name">
+                <v-card>
+                    <v-card-title>{{i.name}}</v-card-title>
+                    <v-card-subtitle>{{i.location}}</v-card-subtitle>
+                    <p>Start: <v-chip>{{i.start}}</v-chip> End: <v-chip>{{i.end}}</v-chip></p>
+                </v-card>
+                </div></a>
         </ul>
     </div>
 </template>
