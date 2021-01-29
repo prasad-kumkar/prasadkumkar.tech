@@ -1,8 +1,15 @@
 <template>
     <div class="block-group">
-        <ul id="list" v-for="data in json" v-bind:key="data.id">
-            <div class="block">{{data}}</div>
-        </ul>
+        <div id="list" v-for="data in json" v-bind:key="data.id" style="margin: 10px">
+                <v-card width="50vw" class="card">
+                    <v-card-title>{{data[1]}}</v-card-title>
+                    <p>{{data[2]}}</p>
+                    <v-card-title>{{data[3]}}</v-card-title>
+                    <p v-if="data[4]">Start: <v-chip>{{data[4]}}</v-chip> End: <v-chip>{{data[5]}}</v-chip></p>
+                    <p>{{data.description}}</p>
+                    <v-card-actions v-if="data.link"> <v-btn text :href="data.link" color="purple">View</v-btn> </v-card-actions>
+                </v-card>
+        </div>
     </div>
 </template>
 
@@ -23,18 +30,18 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px;
 }
-.block{
-    margin: 10px;
-    max-width: 200px;
-    min-height: 30px;
-}
+
 #list{
-    background-color:black;
-    margin: 10px;
+    background-color:grey;
+    padding: 10px;
 }
 #list:hover{
     background-color: blueviolet;
+}
+.card:hover *{
+    color: blueviolet;
 }
 </style>
