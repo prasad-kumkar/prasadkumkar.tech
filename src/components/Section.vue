@@ -1,60 +1,46 @@
-<template>
+<template><div>
 <div class="section">
-    <h2>{{msg}}</h2>
-    <Block v-if="!this.doub" :json="myJson" ref="block"/>
-    <DoubleBlock v-if="this.doub" :json="myJson" ref="double"/>
+    <h1>{{msg}}</h1>
+    <Block :json="myJson" ref="block"/>
     
+</div>
 </div>
 </template>
 
 <script>
 import json from "../data.json"
 import Block from "./Block.vue"
-import DoubleBlock from "./DoubleBlock.vue"
 export default {
     name: "Section",
-    props: {msg: String, doub: Boolean},
+    props: {msg: String},
     data(){
         switch(this.msg){
             case "Education":
-                return {myJson: json[0].education, doub: true}
+                return {myJson: json[0].education}
             case "Skills":
-                return {myJson: json[0].skills, doub: false}
+                return {myJson: json[0].skills}
             case "Languages":
-                return {myJson: json[0].languages, doub: false}
+                return {myJson: json[0].languages}
             case "Experience":
-                return {myJson: json[0].experience, doub: true}
+                return {myJson: json[0].experience}
             case "Projects":
-                return {myJson: json[0].projects, doub: true}
+                return {myJson: json[0].projects}
             case "Achievements":
-                return {myJson: json[0].achievements, doub: true}
+                return {myJson: json[0].achievements}
             case "Contact":
-                return {myJson: json[0].contact, doub: false}
+                return {myJson: json[0].contact}
             default:
-                return {myJson: json, doub: false}
+                return {myJson: json}
         }
     },
     components: {
-        Block,
-        DoubleBlock
+        Block
     }
   }
 </script>
 
 <style scoped>
-h2{
+h1{
     font-family: 'Source Code Pro', sans-serif;
-}
-.section{
-    margin: 0px;
-  padding: 10%;
-  width: 80%;
-    background-color:#00994d;
-    }
-section{
-  border: 1px black;
-  color: white
-}
-.section:hover{
 }
 </style>
